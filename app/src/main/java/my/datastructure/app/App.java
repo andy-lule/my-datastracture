@@ -5,8 +5,10 @@ package my.datastructure.app;
 
 public class App {
     public static void main(String[] args) {
-        String a = "abc";
-        System.out.println(a.substring(0, 1));
-        System.out.println(a.substring(2));
+        long value = Integer.MAX_VALUE * 10L + 13213L;
+        System.out.println(Long.hashCode(Long.MAX_VALUE- 500000000000L));
+        System.out.println(Long.toBinaryString(Long.MAX_VALUE >>> 32));
+        System.out.println(0b01101);
+        System.out.println(Integer.toBinaryString(22));
     }
 }

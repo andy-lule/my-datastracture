@@ -4,19 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52163efa-dcc2-45f0-b034-af7c4a90c13c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/common/MyArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/vector/ResizableArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/common/MyArrayUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/vector/ResizableArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="52163efa-dcc2-45f0-b034-af7c4a90c13c" name="Changes" comment="Implement ResizableArray">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/hash/MyHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/CaesarCypherEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/GenerateDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/RunLengthEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/StringIsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/StringIsPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/StringIsUniqueCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/URLify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/vector/SmallestDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/vector/SpiralTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/vector/ThreeNumberSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/hash/MyHashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/linkedlist/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/string/StringIsPermutationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/string/StringIsUniqueCharacterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/string/URLifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/vector/ThreeNumberSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/vector/ResizableArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/vector/ResizableArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +75,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/github/me/my-datastructure&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github/me/java-design-pattern&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -74,8 +84,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.ResizableArrayTest">
-    <configuration name="MyArrayUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MyHashTableTest">
+    <configuration name="MyHashTableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +98,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;my.datastructure.app.common.MyArrayUtilsTest&quot;" />
+            <option value="&quot;my.datastructure.app.hash.MyHashTableTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -98,7 +108,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyArrayUtilsTest.copyArray_whenCopiedFromOtherIndex_thenTwoArraySequenceEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyHashTableTest.put_WhenStoreIsEmpty_thenReturnNull (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -111,7 +121,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;my.datastructure.app.common.MyArrayUtilsTest.copyArray_whenCopiedFromOtherIndex_thenTwoArraySequenceEqual&quot;" />
+            <option value="&quot;my.datastructure.app.hash.MyHashTableTest.put_WhenStoreIsEmpty_thenReturnNull&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +131,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyArrayUtilsTest.copyArray_whenCopiedSuccessfully_thenTwoArraySequenceEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyHashTableTest.remove_withDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +144,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;my.datastructure.app.common.MyArrayUtilsTest.copyArray_whenCopiedSuccessfully_thenTwoArraySequenceEqual&quot;" />
+            <option value="&quot;my.datastructure.app.hash.MyHashTableTest.remove_withDataTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -144,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ResizableArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyHashTableTest.resize_whenNormalizeHashIsDifferentWithIndex_thenVerifyLinkedListIsSplit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +167,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;my.datastructure.app.vector.ResizableArrayTest&quot;" />
+            <option value="&quot;my.datastructure.app.hash.MyHashTableTest.resize_whenNormalizeHashIsDifferentWithIndex_thenVerifyLinkedListIsSplit&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ResizableArrayTest.removeItem_whenItemIsNotFound_thenReturnsCorrectlyIndex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyLinkedListTest.removeAt_WhenIndexAtFirst_ThenVerifyTailCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,7 +190,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;my.datastructure.app.vector.ResizableArrayTest.removeItem_whenItemIsNotFound_thenReturnsCorrectlyIndex&quot;" />
+            <option value="&quot;my.datastructure.app.linkedlist.MyLinkedListTest.removeAt_WhenIndexAtFirst_ThenVerifyTailCorrectly&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ResizableArrayTest" />
-        <item itemvalue="Gradle.MyArrayUtilsTest.copyArray_whenCopiedFromOtherIndex_thenTwoArraySequenceEqual" />
-        <item itemvalue="Gradle.MyArrayUtilsTest" />
-        <item itemvalue="Gradle.MyArrayUtilsTest.copyArray_whenCopiedSuccessfully_thenTwoArraySequenceEqual" />
-        <item itemvalue="Gradle.ResizableArrayTest.removeItem_whenItemIsNotFound_thenReturnsCorrectlyIndex" />
+        <item itemvalue="Gradle.MyHashTableTest" />
+        <item itemvalue="Gradle.MyHashTableTest.remove_withDataTest" />
+        <item itemvalue="Gradle.MyHashTableTest.put_WhenStoreIsEmpty_thenReturnNull (1)" />
+        <item itemvalue="Gradle.MyHashTableTest.resize_whenNormalizeHashIsDifferentWithIndex_thenVerifyLinkedListIsSplit" />
+        <item itemvalue="Gradle.MyLinkedListTest.removeAt_WhenIndexAtFirst_ThenVerifyTailCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -218,8 +228,29 @@
       <updated>1651909845366</updated>
       <workItem from="1651909847090" duration="7658000" />
       <workItem from="1651993700045" duration="11145000" />
-      <workItem from="1652151064101" duration="10442000" />
+      <workItem from="1652151064101" duration="21444000" />
+      <workItem from="1652176754690" duration="68000" />
+      <workItem from="1652236212939" duration="12125000" />
+      <workItem from="1652331197522" duration="10257000" />
+      <workItem from="1652420298157" duration="5406000" />
+      <workItem from="1652447952013" duration="3866000" />
+      <workItem from="1652497640597" duration="6861000" />
+      <workItem from="1652666695189" duration="14883000" />
+      <workItem from="1652709102424" duration="7957000" />
+      <workItem from="1652755470451" duration="21142000" />
+      <workItem from="1652870484992" duration="2158000" />
+      <workItem from="1653541414152" duration="5258000" />
+      <workItem from="1653550044025" duration="31284000" />
+      <workItem from="1653622452515" duration="12406000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement ResizableArray">
+      <created>1652162516013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652162516013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +261,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -238,6 +275,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Implement ResizableArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement ResizableArray" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

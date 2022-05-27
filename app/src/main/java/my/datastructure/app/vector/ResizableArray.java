@@ -63,7 +63,7 @@ public class ResizableArray<T> {
             throw new RuntimeException("ResizableArray is empty");
         }
         final int size = size();
-        T item = storage[size - 1];
+        final T item = storage[size - 1];
         storage[size - 1] = null;
         --currentSize;
         decreaseCapacityIfNeed();
