@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52163efa-dcc2-45f0-b034-af7c4a90c13c" name="Changes" comment="Implement ResizableArray">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/hash/MyHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/CaesarCypherEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/GenerateDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/RunLengthEncoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/StringIsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/StringIsPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/StringIsUniqueCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/string/URLify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/vector/SmallestDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/vector/SpiralTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/problems/vector/ThreeNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/hash/MyHashTableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/linkedlist/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/string/StringIsPermutationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/string/StringIsUniqueCharacterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/string/URLifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/my/datastructure/app/problems/vector/ThreeNumberSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/vector/ResizableArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/my/datastructure/app/vector/ResizableArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="52163efa-dcc2-45f0-b034-af7c4a90c13c" name="Changes" comment="implemented HashTable and solved other problems" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +219,7 @@
       <workItem from="1652870484992" duration="2158000" />
       <workItem from="1653541414152" duration="5258000" />
       <workItem from="1653550044025" duration="31284000" />
-      <workItem from="1653622452515" duration="12406000" />
+      <workItem from="1653622452515" duration="12595000" />
     </task>
     <task id="LOCAL-00001" summary="Implement ResizableArray">
       <created>1652162516013</created>
@@ -250,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652162516013</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implemented HashTable and solved other problems">
+      <created>1653651877888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653651877888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Implement ResizableArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement ResizableArray" />
+    <MESSAGE value="implemented HashTable and solved other problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented HashTable and solved other problems" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
